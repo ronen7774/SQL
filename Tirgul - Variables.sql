@@ -221,7 +221,7 @@ else begin select 'The price is beloew market value' end
 go
 Declare @prod_name varchar (15),
 @price money
-SET @prod_name = 'Change'
+SET @prod_name = 'Chang'
 
 SELECT @price = UnitPrice
 FROM Products
